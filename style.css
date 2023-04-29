@@ -2,17 +2,20 @@
     font-family: "Times New Roman", Times, serif;
 }
 
-#header {	
+#header:hover {	
     text-align: center;
     background-color: #247BA0;
+    margin-left: 100px;
+    margin-top: 200px;
+
 }
 
-#foto1 {
-    width: 100%;
-      height: auto;
+#foto1:hover {
+    width: 200px;
+    height: 350px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 
 ul {
@@ -36,9 +39,9 @@ li a {
 }
 
 li a:hover {
-    background-color: #5ADBFF;
+    background-color: red;
     height: 22px;
-    color: #247BA0;
+    color: #a04124;
 }
 
 table {
@@ -71,11 +74,24 @@ th {
 }
 
 .titulli{
-    color: red;
+   width: max-content;
+   background-color: red;
+   padding: 90px 200px 0 80px;
+   margin: 100px 50px;
+;
+
 }
 .brazil{
     color: purple;
 }
-.naconaliteti{
 
+tr:hover{
+    background-color: yellow;
+    padding-left: 50px;
 }
+
+td:hover{
+    padding: 20px;
+}
+
+ 
